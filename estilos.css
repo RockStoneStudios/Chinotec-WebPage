@@ -186,6 +186,8 @@ body{
      
     text-shadow: -1px -2px 8px rgba(255,255,255, 0.6),
                   2px 3px 10px rgba(255, 255, 255, 0.8);
+                  text-align: justify;
+                  padding: 20px 120px;
 
    }
    h1:hover{
@@ -306,18 +308,108 @@ body{
   }
 
 .footer{
-    background: black;
+   
     display: flex;
     flex-flow: row nowrap;
 
 }
 
 .pie{
-    background: deeppink;
+ 
     flex: 1 1 auto;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: fantasy;
+    color: #eed;
+    line-height: 35px;
+    
+     text-shadow:  -3px -5px 16px rgba(1, 200, 14, 0.5),
+    -4px -6px 12px rgba(1, 200, 14, 0.5),
+    4px 5px 22px rgba(14, 20, 214, 0.6),
+    4px 6px 21px rgba(14, 20, 214, 0.6);
 }
 
 .redes-sociales{
-      background: forestgreen;
+     margin-top: -20px;
       flex: 2 1 auto;
+      display: flex;
+      justify-content: space-between;  
+   
+      align-content: flex-start; 
 }
+
+
+.fa-facebook{
+    font-size: 30px;
+    padding: 0;
+    color: #3b5998;
+     
+    text-shadow: 10px 5px 18px rgba(41, 191, 218, 0.16),
+                -8px -6px 15px rgba(13, 73, 163, 0.4);
+    
+}
+
+.fa-instagram{
+    font-size: 30px;
+    padding: 0;
+    color: #c93bb6;
+   
+    text-shadow: 10px 5px 18px rgba(219, 96, 219, 0.16),
+                -8px -6px 16px rgba(219, 84, 213, 0.4);
+}
+  .fa-twitter{
+    font-size:30px;
+    padding: 0;
+    color: #00acee;
+    background: #091921;
+ 
+    text-shadow:  10px 5px 20px rgba(15, 90, 161, 0.16),
+                -5px -6px 15px rgba(36, 53, 214, 0.4);
+}
+
+.fa-whatsapp{
+    font-size: 30px;
+    padding: 0;
+    color: #00bb2d;
+ 
+    text-shadow: 10px 5px 18px rgba(31, 209, 76, 0.16),
+                -5px -6px 10px rgba(37, 180, 9, 0.4);
+}
+
+.fa-facebook:hover{
+    transform: scale(1.5);
+    color: rgb(255, 255, 255);
+    text-shadow:  10px 5px 18px rgba(10, 110, 204, 0.16),
+                  -5px 6px 10px rgba(4, 82, 146, 0.4),
+                  inset 8px 9px 12px rgba(119, 174, 219, 0.8),
+                  inset -4px -6px 10px rgba(211, 211, 15, 0.9);
+   
+    
+}
+
+.fa-twitter:hover{
+    transform: scale(1.5);
+    color: white;
+    text-shadow:  10px 5px 18px rgba(10, 110, 204, 0.16),
+    -5px 6px 10px rgba(4, 82, 146, 0.4);
+
+}
+
+.fa-instagram:hover{
+    transform: scale(1.5);
+}
+.fa-whatsapp:hover{
+    transform: scale(1.5);
+}
+
+.pie:hover{
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+

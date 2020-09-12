@@ -407,6 +407,79 @@ body{
 }
 
 
+@media all and (max-width:1120px){
+     .menu{
+         flex-direction: column;
+         height: auto;
+     }
+
+     .aside{
+         display: flex;
+         justify-content: center;
+
+     }
+     .section{
+        flex-direction: column;
+     }
+
+     .titulo-principal{
+           height: 440px;
+     }
+     h1{
+         font-size: 15px;
+         text-align: start;
+     }
+     .publicidad{
+         flex:1 1 45%;
+     }
+}
+
+@media all and (max-width:768px){
+    
+    .contenedor{
+        flex-direction: column;
+    }
+    .aside{
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width:720px){
+    .off{display:none}
+    .nav a{
+        font-size: 24px;
+    }
+    .footer{
+        
+        flex-direction: column;
+        justify-content: start;
+    }
+    .redes-sociales{
+        margin-left: -50px;
+    }
+    .articles .contenedor h2{
+        font-size: 18px;
+    }
+
+}
+
+@media all and (max-width:400px){
+    .aside{
+        flex-direction: column;
+    }
+    .nav{
+      display: flex;
+      flex-flow: column nowrap;
+    }
+
+   .articles .contenedor h2{
+        font-size: 18px;
+    }
+
+   
+}
+
+
 
 
 

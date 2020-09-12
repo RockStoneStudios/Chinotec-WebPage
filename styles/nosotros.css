@@ -203,6 +203,9 @@ body{
                      -2px 4px 8px rgba(218, 208, 218, 0.7);
  
      }
+     .foto-arli{
+           height: 480px;
+     }
      .contenedor{
          box-shadow: 2px 4px 10px rgba( 255, 255, 254,0.16),
                      -2px 4px 8px rgba(219, 71, 219, 0.7);
